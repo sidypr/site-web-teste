@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: rgb(90, 84, 84);
+    color: rgb(10, 10, 10); /* Changer la couleur du texte pour une meilleure visibilité */
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: darkslategrey;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }

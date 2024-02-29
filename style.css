@@ -1,0 +1,26 @@
+
+        body {
+            background-color: #f0f0f0; /* Couleur grise (vous pouvez ajuster la valeur selon vos préférences) */
+        }
+    
+a {
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+  body {
+    background-color: rgb(90, 84, 84);
+     }
+     .parag{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: ;font-size: larger;}
